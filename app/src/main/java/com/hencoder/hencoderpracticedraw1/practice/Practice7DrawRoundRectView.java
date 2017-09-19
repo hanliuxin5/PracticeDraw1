@@ -26,7 +26,7 @@ public class Practice7DrawRoundRectView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        canvas.drawRoundRect(100, 100, 500, 300, 200,200,paint);
+        canvas.drawRoundRect(100, 100, 500, 300, 66,66,paint);
 //        练习内容：使用 canvas.drawRoundRect() 方法画圆角矩形
     }
 }

@@ -26,6 +26,7 @@ public class Practice6DrawLineView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        paint.setStrokeWidth(30);
         canvas.drawLine(100, 100, 300, 300, paint);
 //        练习内容：使用 canvas.drawLine() 方法画直线
     }
